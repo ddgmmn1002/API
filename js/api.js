@@ -2,7 +2,7 @@
 let url =
   "http://apis.data.go.kr/6260000/BusanTblRdemrfStusService/getTblRdemrfStusInfo";
 const authKey =
-  "e81NBOj0iuvIAQazeEbvL6EfwDzRA2XK%2BZxtDFtTD8U4LRiKzZRxMdniDwIxt4EfhACShvsIXLTVkRGvMGwZew%3D%3D";
+  "<<AUTH KEY>>";
 let queryParams = "?" + encodeURIComponent("serviceKey") + "=" + authKey;
 queryParams +=
   "&" + encodeURIComponent("pageNo") + "=" + encodeURIComponent("1");
